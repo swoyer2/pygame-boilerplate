@@ -24,7 +24,7 @@ clock = pygame.time.Clock()     ## For syncing the FPS
 
 
 ## group all the sprites together for ease of update
-all_sprites = pygame.sprite.group()
+all_sprites = pygame.sprite.Group()
 
 ## Game loop
 running = True
